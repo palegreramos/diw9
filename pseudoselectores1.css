@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+:root {
+    font-family: 'Montserrat', sans-serif;
+}
+abbr::after {
+    content: " - " "\1F440" "(" attr(title) ")";
+    font-family: 'Poppins', sans-serif;
+}
+abbr {
+    text-decoration: none;
+}
+abbr:hover {
+    text-decoration: underline;
+}
